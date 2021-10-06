@@ -1,0 +1,116 @@
+Digitando no terminal:
+    Ctl R                   =   desloca para o fim (END)
+    Ctl A                   =   desloca para o início (HOME)
+    Ctl T                   =   desloca o caracter para a esquerda
+    Ctl U                   =   apaga da posição atual até o início
+    Ctl K                   =   apaga da posição atual até o fim
+    Ctl L                   =   CLEAR
+    Ctl C                   =   cancela o comando atual, e limpa o prompt
+    
+    sudo -s                 =   pede senha, "#" -> usuario tem privilégio root
+    sudo purge              =   exemplo de sudo para comando root
+    exit                    =   sai do root, volta para o "˜" usuário
+
+    ls -lah                 =   .arquivoOculto      (inicia com ponto)
+                                .diretorioOculto/   (inicia com ponto)
+                                arquivoNormal       (inicia com traço)
+                                diretorioNormal/    (inicia com letra d)
+                                link simbólico (começa com letra l)
+
+    ls -lah                 =   drwxr-xr-x   4 usuario  staff   128B 25 Set 15:00 BigData-Estudos01
+                                diretorio
+                                 3 permissões criador
+                                    3 permissoes grupo
+                                       3 permissoes outros
+                                             qtde
+                                               dono
+                                                        grupo
+                                                               tamanho
+                                                                    data modificação
+                                                                        hora modificação
+                                                                               nome propriamente dito
+
+    ls -lS                  =   lista os arquivos com modificação mais recente primeiramente
+    ls -lR                  =   mostra o conteúdo dos subdiretórios, inclusive
+
+    pwd                     =   mostra qual é o diretório atual
+    cd                      =   cd "sozinho" direciona para a diretório do usuário atual, tipo -> /Users/usuario
+    cd -                    =   volta para o diretório anterior, antes do atual
+    mkdir                   =   cria diretórios, ex.: mkdir 00-00-MetodologiasAgeis
+    mkdir -p                =   cria diretórios já com subdiretórios, de forma recursiva, ex.: mkdir -p teste/teste1/teste2/teste3/teste4
+
+    cat                     =   cria um arquivo de texto, sintaxe:    cat > nomeArquivo
+                                isto é um arquivo de texte criado pelo cat
+                                linha2
+                                linha3
+                                linha4
+                                linha5
+                                ^C
+    cat nomeArquivo         =   mostra o conteúdo do arquivo de texto
+    
+    ls -lah > funciona.txt  =   "grava" o resultado do ls -lah em um arquivo de texto (funciona.txt) - muito interessante
+
+    mv                      =   move ou renomeia arquivos/diretórios,  ex. de renomear:     mv arquivoTexto arquivoTexto.txt
+
+    rmdir                   =   deleta diretórios vazios, ex.:  rmdir ./teste2/teste3/teste4
+
+    rm -r                   =   deleta diretórios, incluindo subdiretórios e arquivos existentes, ex.:  rm -r P_O_S/teste/teste1/teste2/teste3/
+    rm -rf /pasta           =   remove TUDO sem solicitar confirmação
+    rm -rf *.bak            =   remove todos arquivos .bak sem solicitar confirmação
+
+    cp *.pdf PDF            =   copia todos arquivos do tipo pdf para uma determinada pasta (PDF)
+    cp -r                   =   cria uma cópia de um diretório completo ex.: cp -r /Documents /Documents2
+    cp -r ~/Documents/ .    =   copia da pasta home/Documents todo o conteúdo para o diretório atual (não cria pasta)
+    
+    ls -lah | less          =   lista, paginando os resultados 
+                                "sai" com o comando q
+                                "pesquisa" com o comando /algoAPesquisar
+                                "descer" com o comando e j z tecla down
+                                "subir" com o comando y k tekla up
+                                "final do arquivo" com o comando f
+
+    df -h                   =   mostra os volumes, espaços totais, em uso e disponíveis
+    du -sh ~/Downloads/     =   mostra o tamanho total de um determinado diretório ou volume ex.: 117G	/Users/usuario/Downloads/
+    du -sh *                =   mostra o tamanho de todos subdiretórios
+    du -sh /Users/usuario/* =   mostra o tamanho de todos subdiretórios deste diretório
+
+    top                     =   monitoramento geral
+    killall calculator      =   mata o processo pelo nome
+    kill 3018               =   mata o processo pelo PID
+
+    find (name)             =   localiza arquivos ex.: find /Users/usuario -name atalhos_terminal.txt
+                                resultado ->    /Users/usuario/Documents/Terminal/004/atalhos_terminal.txt
+    find (-iname)           =   localiza arquivos sem saber maiuscula ou minuscula ex.: find /Users/usuario -iname Atalhos*.txt
+                                resultado ->    /Users/usuario/Documents/Terminal/004/atalhos_terminal.txt
+                                                /Users/usuario/Documents/VisualStudioCode/atalhosVSCodeMac.txt
+
+    passwd                  =   altera a senha do usuário atual
+
+    ping 8.8.8.8            =   pinga o google
+    ping www.dagnese.com.br =   pinga determinado domínio
+    ifconfig en0            =   descobre ip local
+    dig www.dagnese.com.br  =   retorna informações servidor domínio
+    nslookup www.google.com =   retorna informações servidor domínio
+
+    1 - execução
+    2 - escrita
+    4 - leitura
+    5 - leitura + execução
+    6 - leitura + escrita
+    7 - total
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+

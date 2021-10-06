@@ -1,0 +1,8 @@
+total 16
+drwxr-xr-x   7 usuario  staff   224B 26 Set 00:00 .
+drwx------+ 14 usuario  staff   448B 25 Set 23:56 ..
+-rw-r--r--@  1 usuario  staff   6,0K 25 Set 18:36 .DS_Store
+drwxr-xr-x@  3 usuario  staff    96B 25 Set 18:10 004
+-rw-r--r--   1 usuario  staff     0B 26 Set 00:01 funciona.txt
+drwxr-xr-x   4 usuario  staff   128B 25 Set 23:40 teste
+drwxr-xr-x   2 usuario  staff    64B 25 Set 23:49 teste2
